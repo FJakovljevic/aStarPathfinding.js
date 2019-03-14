@@ -1,0 +1,33 @@
+html, body, div {
+  background: #211f1f;
+  border: 0px;
+  padding: 0px;
+  margin: 0px;
+  height: 100%;
+  display: block;
+}
+
+canvas {
+  height: 90%;
+  width: 100%;
+  margin: auto;
+  background-color: #211f1f;
+  display: block;
+}
+
+#s {
+  width: 100%;
+  color: white;
+  font-size: 25px;
+  background: #211f1f;
+  text-align: center;
+}
+
+#container {
+  height: 10%;
+  width: 100%;
+  background: #211f1f;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
