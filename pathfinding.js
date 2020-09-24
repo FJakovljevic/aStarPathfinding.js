@@ -14,7 +14,7 @@ const createMatrix = () => {
 	for (var i = 0; i < heightNumber; i++) {
 		let helper = [];
   		for (var j = 0; j < widthNumber; j++) {
-  			if(j == 0 || j+1 == widthNumber){
+  			if(j == 0 || j == ~~widthNumber){  //posto je float ovo ga vraca u int ~~widthNumber
   				helper[j] = new Node(1);
   			}else{
   				helper[j] = new Node(Math.round(Math.random()-0.2));
